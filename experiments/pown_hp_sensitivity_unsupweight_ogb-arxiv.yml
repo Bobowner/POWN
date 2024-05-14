@@ -1,0 +1,21 @@
+method: grid
+metric:
+  name: all_val_acc_run_final
+  goal: maximize
+parameters:
+  sup_loss_weight:
+    values: [ 0.5496240559571351]
+  entropy_loss_weight:
+    values: [0.13989925789728974]
+  ood_percentile:
+    values: [0.3341549023301812]
+  pseudo_loss_weight:
+    values: [0.26271245362228723]
+  unsup_loss_weight:
+    values: [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.6705940079253068, 0.7, 0.8, 0.9, 1.0]
+  geometric_loss_weight:
+    values: [0.21989507112302817]
+  proto_type:
+    values: ['param']
+  pseudo_label_method:
+    values: ['lp']

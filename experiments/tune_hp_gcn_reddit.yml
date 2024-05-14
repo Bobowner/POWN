@@ -1,0 +1,13 @@
+method: grid
+metric:
+  name: final_val_acc
+  goal: maximize
+parameters:
+  lr:
+    values: [0.001, 0.01]
+  weight_decay: 
+    values: [0.0, 0.001]
+  hidden_channels:
+    values: [64, 128, 256]
+  dropout:
+    values: [0.2, 0.5 , 0.7]

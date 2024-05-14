@@ -1,0 +1,23 @@
+log_all: True
+dataset: "ogb-arxiv"
+num_repeats: 1
+n_epoch: 500
+patience: 30
+hidden_channels: 1024
+num_layers: 3
+dropout: 0.6
+lr: 0.01
+weight_decay: 0.0
+unknown_class_ratio: 0.2
+sampler: "neighbor"
+batch_size: [4096, 128, 32]
+geometric_loss_weight: 0.1
+num_protos: 40
+model: "pown"
+lp_hop: 2
+entropy_threshold: 0.1
+lp_min_seeds: 3
+gpu_number: 0
+fold_type: "disjunct"
+sup_temp : 0.1
+pseudo_temp : 0.7

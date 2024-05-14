@@ -1,0 +1,12 @@
+num_repeats: 1
+log_all: False
+dataset: "photo"
+unknown_class_ratio: 0.2
+n_folds: 5
+n_epoch: 300
+max_cand_k : 10
+split_ratio : 0.2
+num_val_cls : 6
+hidden_channels: 512
+lr: 0.01
+min_max_ratio : 0.05

@@ -1,0 +1,26 @@
+method: bayes
+metric:
+  name: all_val_acc_run_final
+  goal: maximize
+parameters:
+  sup_loss_weight:
+    min: 0.0
+    max: 2.0
+  pseudo_loss_weight:
+    min: 0.0
+    max: 2.0
+  geometric_loss_weight:
+    min: 0.0
+    max: 2.0
+  unsup_loss_weight:
+    min: 0.0
+    max: 2.0
+  ood_percentile:
+    min: 0.01
+    max: 0.99
+  entropy_loss_weight:
+    values: [0,0.05]
+  proto_type: 
+    values: ["param", "mean"]
+  pseudo_label_method:
+    values: ["closest", "lp"]

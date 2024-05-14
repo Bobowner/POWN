@@ -1,0 +1,7 @@
+dataset: "photo"
+num_repeats: 2
+model: "openssl"
+log_all: True
+hidden_channels: 64
+unknown_class_ratio: 0.2
+gpu_number: 0

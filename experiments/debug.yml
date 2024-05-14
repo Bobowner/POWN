@@ -1,0 +1,23 @@
+sup_loss_weight: 0.8634
+pseudo_loss_weight: 0.4615
+geometric_loss_weight: 0.03986
+unsup_loss_weight: 0.3
+entropy_loss_weight: 0.101
+proto_type: "param" #["mean", "param"]
+pseudo_label_method: "lp" #["none", "closest", "lp"]
+ood_percentile: 0.8829
+n_epoch: 50
+sampler: null #"neighbor"
+batch_size: [4096, 128, 32]
+#batch_size: [16384, 0, 0]
+dataset: "cora"
+lp_hop: 2
+entropy_threshold: 0.1
+hidden_channels: 256
+num_repeats: 1
+model: "spectral"
+unknown_class_ratio: 0.2
+gpu_number: 0
+fold_type: "disjunct"
+n_folds: 5
+num_protos: 10

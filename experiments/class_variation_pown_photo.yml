@@ -1,0 +1,16 @@
+dataset: "photo"
+num_repeats: 1
+model: "pown"
+log_all: True
+unknown_class_ratio: 0.2
+fold_type: "class_var"
+gpu_number: 1
+sup_loss_weight: 0.8633859874737368
+entropy_loss_weight: 0.10102479086956818
+ood_percentile: 0.8828990126298749
+pseudo_loss_weight: 0.4615071932371104
+unsup_loss_weight: 0.30869833725565904
+geometric_loss_weight: 0.03986061933819701
+proto_type: 'param'
+pseudo_label_method: 'lp'
+n_epoch: 25

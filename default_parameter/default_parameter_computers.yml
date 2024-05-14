@@ -1,0 +1,23 @@
+sampler: null
+batch_size: [128, 32, 16]
+dataset: "computers"
+num_repeats: 5
+model: "pown"
+log_all: True
+n_epoch: 200
+patience: 20
+hidden_channels: 256
+num_layers: 2
+dropout: 0.8
+lr: 0.01
+weight_decay: 0.0
+unknown_class_ratio: 0.2
+lp_hop: 2
+lp_min_seeds: 3
+entropy_threshold: 0.1
+geometric_loss_weight: 0.1
+num_protos: 10
+gpu_number: 0
+fold_type: "disjunct"
+sup_temp : 0.1
+pseudo_temp : 0.7

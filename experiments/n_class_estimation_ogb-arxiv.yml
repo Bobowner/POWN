@@ -1,0 +1,12 @@
+num_repeats: 1
+log_all: False
+dataset: "ogb-arxiv"
+unknown_class_ratio: 0.2
+n_folds: 5
+n_epoch: 200
+max_cand_k : 50
+split_ratio : 0.2
+num_val_cls : 32
+hidden_channels: 512
+lr: 0.01
+min_max_ratio : 0.05

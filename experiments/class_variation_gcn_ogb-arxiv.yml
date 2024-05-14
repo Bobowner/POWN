@@ -1,0 +1,8 @@
+dataset: "ogb-arxiv"
+num_repeats: 1
+model: "gcn"
+log_all: True
+unknown_class_ratio: 0.2
+fold_type: "class_var"
+gpu_number: 2
+n_epoch: 25

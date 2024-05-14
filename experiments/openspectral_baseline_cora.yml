@@ -1,0 +1,8 @@
+dataset: "cora"
+sampler: null
+num_repeats: 2
+model: "spectral"
+log_all: True
+n_epoch: 1
+unknown_class_ratio: 0.2
+gpu_number: 0

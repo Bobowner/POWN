@@ -1,0 +1,6 @@
+dataset: "cora"
+num_repeats: 2
+model: "openwgl"
+log_all: True
+unknown_class_ratio: 0.2
+gpu_number: 0

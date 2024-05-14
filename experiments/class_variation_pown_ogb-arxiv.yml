@@ -1,0 +1,16 @@
+dataset: "ogb-arxiv"
+num_repeats: 1
+model: "pown"
+log_all: True
+unknown_class_ratio: 0.2
+fold_type: "class_var"
+gpu_number: 1
+sup_loss_weight: 0.5496240559571351
+entropy_loss_weight: 0.13989925789728974
+ood_percentile: 0.3341549023301812
+pseudo_loss_weight: 0.26271245362228723
+unsup_loss_weight: 0.6705940079253068
+geometric_loss_weight: 0.21989507112302817
+proto_type: 'param'
+pseudo_label_method: 'lp'
+n_epoch: 100

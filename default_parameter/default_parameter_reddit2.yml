@@ -1,0 +1,23 @@
+sampler: "neighbor"
+batch_size: [4096, 128, 32]
+dataset: "reddit2"
+num_repeats: 1
+model: "pown"
+log_all: True
+n_epoch: 500
+patience: 30
+hidden_channels: 128
+num_layers: 2
+dropout: 0.2
+lr: 0.001
+weight_decay: 0.0
+unknown_class_ratio: 0.2
+lp_hop: 2
+lp_min_seeds: 3
+entropy_threshold: 0.1
+geometric_loss_weight: 0.1
+num_protos: 41
+gpu_number: 0
+fold_type: "disjunct"
+sup_temp : 0.1
+pseudo_temp : 0.7

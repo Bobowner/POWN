@@ -1,0 +1,27 @@
+method: grid
+metric:
+  name: all_test_acc_run_final
+  goal: maximize
+parameters:
+  lp_hop:
+   values:  [0, 1, 2, 3, 4, 5]
+  entropy_threshold:
+   values:  [0, 0.1, 0.2, 0.3, 0.4, 0.5]
+  sup_loss_weight:
+    values: [0.8633859874737368]
+  entropy_loss_weight:
+    values: [0.10102479086956818]
+  ood_percentile:
+    values: [0.8828990126298749]
+  pseudo_loss_weight:
+    values: [0.4615071932371104]
+  unsup_loss_weight:
+    values: [0.30869833725565904]
+  geometric_loss_weight:
+    values: [0.03986061933819701]
+  proto_type:
+    values: ['param']
+  pseudo_label_method:
+    values: ['lp']
+  num_repeats: 
+    values: [50]
